@@ -9,9 +9,13 @@ body {
   font-size: 1rem;
 }
 
-.input, .input-field, button {
+.input, .btn, .input-field, button {
   outline: 0;
   border: 0;
+}
+
+.btn {
+  padding: 0.3rem 0.5rem;
 }
 
 .input-field {
@@ -141,6 +145,14 @@ button {
 
 .todo-app .display-todos .todos-cards .todo-card .todo-actions .delete-btn {
   color: #ea1f1f;
+}
+
+.todo-app .display-todos .todos-cards .todo-card .update-field {
+  display: none;
+}
+
+.todo-app .display-todos .todos-cards .todo-card .update-field.show {
+  display: block;
 }
 
 @media screen and (max-width: 767px) {

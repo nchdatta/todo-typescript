@@ -17,6 +17,11 @@ body {
     border: 0;
 }
 
+.btn {
+    @extend .input;
+    padding: 0.3rem 0.5rem;
+}
+
 .input-field {
     @extend .input;
     @include border($color-secondary);
@@ -86,6 +91,14 @@ button {
 
                     .delete-btn {
                         color: rgb(234, 31, 31);
+                    }
+                }
+
+                .update-field {
+                    display: none;
+
+                    &.show {
+                        display: block;
                     }
                 }
             }

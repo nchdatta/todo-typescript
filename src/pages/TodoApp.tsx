@@ -1,4 +1,4 @@
-import { FormEvent, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 import { Todo } from '../types/Todo';
 import Form from './components/Form';
 import TodoCard from './components/TodoCard';
@@ -14,6 +14,7 @@ const TodoApp = () => {
 
         e.currentTarget.reset();
     }
+
 
 
     return (
