@@ -100,9 +100,15 @@ button {
   border-bottom: 1px solid #efefef;
 }
 
-.todo-app .display-todos .todos-cards .todo-card p {
-  color: #000000;
+.todo-app .display-todos .todos-cards .todo-card .title {
+  color: #7c6ce5;
   font-size: 1rem;
+  font-weight: 500;
+}
+
+.todo-app .display-todos .todos-cards .todo-card .timestamp {
+  color: #b1b1b1;
+  font-size: 0.625rem;
   font-weight: 400;
 }
 

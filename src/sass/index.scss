@@ -63,8 +63,12 @@ button {
                 padding: 0.5rem 0;
                 border-bottom: 1px solid $border-light;
 
-                p {
-                    @include font-sizing($font-normal, $text-color-primary);
+                .title {
+                    @include font-sizing($font-normal, $color-primary, 500);
+                }
+
+                .timestamp {
+                    @include font-sizing($font-xsmall, $text-color-p);
                 }
 
                 .todo-actions {
