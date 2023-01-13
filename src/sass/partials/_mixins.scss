@@ -1,0 +1,22 @@
+@import 'variables';
+
+@mixin border($color, $size: 1px) {
+    border: $size solid $color;
+}
+
+@mixin flex($gap: 1rem, $dir: row, $justify: space-between, $align: center) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+@mixin font-sizing($size, $color, $weight: 400) {
+    color: $color;
+
+    font: {
+        size: $size;
+        weight: $weight;
+    }
+}
